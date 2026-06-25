@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built by `go test -c`
+*.test
+
+# Output of the go coverage tool, if you use it
+*.out
+
+# The built executable of your Pokedex CLI
+# (Assuming your output binary is named 'pokedex')
+pokedex
+
+# Dependency directories (only needed if you use vendoring, but good to have)
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
